@@ -4,7 +4,7 @@
  It is also NOT serviced by InterSystems Support !   
 ~~~ 
 The guide “Extending Languages with %ZLANG Routines”  
-Tells you all details you need to know.  
+Tells you all details you need to know to extend your programming language.  
 _EXCEPT:_ How to do it in a clean way.  
 
 This example of a %ZLANGC00.mac may show a possible approach  
@@ -18,8 +18,7 @@ you isolate each command and its code into a separate Include file.
 
 And what is left in your %ZLANG* Routines is simple and easy to  
 overview list of included customized Commands, Functions, Variables  
-See the details in an example for %ZLANGC00.  
+See the details in an example for %ZLANGC00.mac . To prevent conflicts   
+with existing %ZLANGC00.mac it is named here ZLANGC00.mac    
   \-\-\-\-\-\-\-  
   BTW: #include can do more than just host #define, .. for $$$\_references
-
-To prevent conflicts with existing %ZLANGC00.mac it is named ZLANGC00.mac
