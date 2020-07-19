@@ -1,4 +1,4 @@
-ROUTINE ZZLANGC00.mac
+ROUTINE ZLANGC00
 %LANGC00    ;
 #include ZZUSER     ; login to USER namespace
 #include ZZSYS      ; login to %SYS namespace
