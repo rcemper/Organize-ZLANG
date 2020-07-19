@@ -1,0 +1,7 @@
+ROUTINE ZZLANGC00.mac
+%LANGC00    ;
+#include ZZUSER     ; login to USER namespace
+#include ZZSYS      ; login to %SYS namespace
+#include ZZSHUTDOWN ; shut down the server quietly
+#; include ZZALL      ; get %ALL privilege #disabled 
+#include ZZROBERT   ; run command example 
