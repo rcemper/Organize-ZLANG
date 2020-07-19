@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="terminal-multiline.ZPM">
+  <Document name="organize-zlang.ZPM">
     <Module>
-      <Name>terminal-multiline</Name>
+      <Name>organize-zlang</Name>
       <Version>1.0.1</Version>
-      <Description>Multi-Line in Terminal Command</Description>
-      <Keywords>Terminal, COS</Keywords>
+      <Description>Manage Language Extensions</Description>
+      <Keywords>SYS, COS</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-       <Resource Name="%zml.MAC"/>
+       <Resource Name="ZLANGC00.MAC"/>
+       <Resource Name="ZZROBERT.INC"/>
+       <Resource Name="ZZSHUTDOWN.INC"/>
+       <Resource Name="ZZSYS.INC"/>
+       <Resource Name="ZZUSER.INC"/>
     </Module>
   </Document>
 </Export>
