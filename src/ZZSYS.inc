@@ -1,0 +1,3 @@
+ROUTINE ZZSYS [Type=INC]
+ZZSYS ;
+ZZS ZN "%SYS" quit
