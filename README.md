@@ -22,3 +22,5 @@ See the details in an example for %ZLANGC00.mac . To prevent conflicts
 with existing %ZLANGC00.mac it is named here ZLANGC00.mac    
   \-\-\-\-\-\-\-  
   BTW: #include can do more than just host #define, .. for $$$\_references
+
+[Article in DC](https://community.intersystems.com/post/organize-zlang)
