@@ -3,7 +3,7 @@
   <Document name="organize-zlang.ZPM">
     <Module>
       <Name>organize-zlang</Name>
-      <Version>1.0.2</Version>
+      <Version>1.0.3</Version>
       <Description>Manage Language Extensions</Description>
       <Keywords>SYS, COS</Keywords>
       <Packaging>module</Packaging>
