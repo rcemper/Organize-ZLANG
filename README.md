@@ -23,4 +23,5 @@ with existing %ZLANGC00.mac it is named here ZLANGC00.mac
 [Demo Server SMP](https://organize-zlang.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Demo Server WebTerminal](https://organize-zlang.demo.community.intersystems.com/terminal/)    
         
-**Code Quality** in SCREENSHOTS 
+**Code Quality**   
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/830/screenshots/4rzpimoouzqs8lce6drrfmceey.jpg">
