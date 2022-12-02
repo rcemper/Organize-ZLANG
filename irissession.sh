@@ -9,8 +9,7 @@ if '\$Get(sc) do ##class(%SYSTEM.Process).Terminate(, 1)
 zn "%SYS"
 do ##class(SYS.Container).QuiesceForBundling()
 Do ##class(Security.Users).UnExpireUserPasswords("*")
-ZN "IRISAPP"
-zpm "install webterminal"
+Do \$system.OBJ.ImportDir("/opt/irisapp/src",,"ck")
 halt
 EOF
 
