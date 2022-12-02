@@ -1,7 +1,8 @@
-ROUTINE ZLANGC00
+ROUTINE %ZLANGC00
 %ZLANGC00    ;
 #include ZZUSER     ; login to USER namespace
 #include ZZSYS      ; login to %SYS namespace
 #include ZZSHUTDOWN ; shut down the server quietly
 #; include ZZALL      ; get %ALL privilege #disabled 
 #include ZZROBERT   ; run command example 
+ZPM(pArgs...) Do ##class(%ZPM.PackageManager).Shell(pArgs...) Quit
