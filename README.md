@@ -1,3 +1,6 @@
+<img src="https://community.intersystems.com/sites/default/files/inline/images/archived.gif" width=100></img>
+<b>&nbsp;no maintenance or update</b>  
+
 The guide “Extending Languages with %ZLANG Routines”  
 Tells you all details you need to know to extend your programming language.  
 _EXCEPT:_ How to do it in a clean way.  
