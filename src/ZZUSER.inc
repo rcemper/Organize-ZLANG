@@ -1,3 +1,0 @@
-ROUTINE ZZUSER [Type=INC]
-ZZUSER ;
-ZZU ZN "USER" quit
