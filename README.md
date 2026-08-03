@@ -6,8 +6,18 @@ Tells you all details you need to know to extend your programming language.
 _EXCEPT:_ How to do it in a clean way.  
   
 With less than 50 lines of code an %ZLANGC00.mac is easy to handle.  
-But if your Studio shows close to 1000 rows or more you may get in troubles.   
-
+But if your Studio shows close to 1000 rows or more you may get in troubles.
+And it can look so simple
+```` cos
+ROUTINE %ZLANGC00
+%ZLANGC00    ;
+#include ZZUSER     ; login to USER namespace
+#include ZZSYS      ; login to %SYS namespace
+#include ZZSHUTDOWN ; shut down the server quietly
+#; include ZZALL      ; get %ALL privilege #disabled 
+#include ZZROBERT   ; run command example 
+ZPM(pArgs...) Do ##class(%ZPM.PackageManager).Shell(pArgs...) Quit
+````
 My recommendation is simple.  
 Instead of adding line by line commands and it's code  
 you isolate each command and its code into a separate Include file.  
